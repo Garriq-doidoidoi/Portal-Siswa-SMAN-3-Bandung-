@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <title>Kontak - SMAN 3 Bandung</title>
+  <link rel="stylesheet" href="css/kontak.css">
+  <link rel="icon" href="sma3 logo.jpg">
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="Foto/sma3 logo.jpg" alt=""></a>
+    <div class="identitas">
+      <h1>SMAN 3 Bandung</h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li>
+          <a href="#">Profil</a>
+          <ul>
+            <li><a href="Sejarah Sekolah.html">Sejarah Sekolah</a></li>
+            <li><a href="Visidanmisi.html">Visi & Misi</a></li>
+            <li><a href="guru dan staff.html">Guru & Staff</a></li>
+          </ul>
+        </li>
+        <li><a href="berita.html">Berita</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Kontak</h1>
+    <form onsubmit="event.preventDefault(); alert('Terima kasih! Pesan Anda telah kami terima'); this.reset();" class="kontak_form">
+      <label for="name">Nama</label>
+      <input id="name" name="name" type="text" required>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required>
+
+      <label for="message">Pesan</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,114 @@
+body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: antiquewhite;
+        }
+        header {
+            background: #34495e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            text-shadow: 5px rgb(123, 120, 120);
+        }
+        nav {
+            background: #2c3e50;
+        }
+      nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+     nav ul li {
+            position: relative;
+            margin: 0 15px;
+        }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 12px;
+        display: block;
+       }
+    nav ul li a:hover{
+        background: rgb(255, 255, 255);
+        color:black;
+        border-radius: 5px;
+    }
+     nav ul li ul{
+        display: none;
+        position: absolute;
+        top: 35px;
+        left: 0;
+        background: black;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        border-radius: 5px;
+    }
+   nav ul li ul li{
+        margin: 0;
+        width: 150px;
+    }
+    nav ul li ul li a{
+        padding: 10px;
+        font-weight: normal;
+    }
+    nav ul li:hover ul{
+        display: block;
+    }
+    
+    section{
+        background: black;
+        background-color: aliceblue;
+        border: 1px solid black;
+        padding: 15px;
+        width: min-content;
+        min-width: 200px;
+        border-radius: 10px;
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+        display: inline-table;
+        justify-content: center;
+
+    }
+    
+    section img{
+        width: 150px;
+        border-radius: 80px;
+       
+    }
+    section :hover{
+        background: #34495e;
+        color: white;
+        transition: all 0.2 linear;
+    }
+    main h1{
+        text-align: center;
+    }
+
+    main{
+        text-align: center;
+    }
+
+    aside{
+        background-color: rgb(89, 11, 11);
+        border-bottom-left-radius:10px ;
+        border-bottom-right-radius:10px ;
+        padding: 20px;
+        color: white;
+        height: 100px;
+
+    }
+
+    footer{
+        background-color: #34495e ;
+        color: white;
+        margin-top: 10px;
+        text-align: center;
+        padding: 15px;
+    }

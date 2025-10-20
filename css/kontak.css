@@ -1,0 +1,99 @@
+body { 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2C3D4F;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+header img {
+  border-radius: 40px;
+  height: 90px;
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  position: relative;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #36305A;
+  border-radius: 5px;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background-color: black;
+  border-radius: 5px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+main h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.kontak_form {
+  max-width: 600px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.kontak_form input,
+.kontak_form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.kontak_form button {
+  background: #354A5F;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.kontak_form button:hover {
+  background: #2a3b4a;
+  color: rgb(123, 114, 207);
+}
