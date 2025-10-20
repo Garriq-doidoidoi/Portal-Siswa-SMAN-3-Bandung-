@@ -1,0 +1,163 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1,6;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            gap: 20px;
+        }
+        header img{
+            border-radius: 40px;
+            height: 90px;
+        }
+        nav {
+            background: #34495e;
+            margin-left: auto;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            position: relative;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 12px;
+            display: block;
+        }
+        nav ul li a:hover {
+            background: #2c3e50;
+            border-radius: 5px;
+        }
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            top: 35px;
+            left: 0;
+            background: #2c3e50;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            border-radius: 5px;
+        }
+        nav ul li ul lu {
+            margin: 0;
+            width: 150px;
+        }
+        nav ul li ul li a {
+            padding: 10px;
+            font-weight: normal;
+        }
+        nav ul li:hover ul {
+            display: block;
+        }
+        main {
+            padding: 20px;
+            border: solid black;
+            display: flex;
+            background-color: antiquewhite;
+            height: 250px;
+        }
+        section{
+            margin: 20px;
+            flex: 4px;
+        }
+        section article{
+            border: solid rgb(211, 62, 62);
+            background-color: turquoise;
+            color: black;
+            font-size: 12px;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            box-shadow: 10px 10px gray;
+        }
+
+        aside{
+            background-color: rgb(117, 55, 55);
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            padding: 20px;
+            color: white;
+            height: 100px;
+            line-height: 16px;
+        }
+
+        footer{
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .banner{
+            background-image: url(../foto/download.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            font-size: 40px;
+            align-items: center;
+            color: white;
+            text-shadow: 0 0 10px rgb(93, 13, 13);
+        }
+        .SMA3ANIM{
+            animation: SMA3 1s linear;
+            position: relative;
+            
+        }
+        @keyframes SMA3 {
+                0%{
+                bottom: 0;
+                opacity: 0;
+                }
+                50%{
+                    bottom: 5px;
+                    opacity: 1;
+                }
+            }
+        .SMA3ANIM:hover{
+            color: #8673A1;
+            transition: all 0.2s linear;
+            font-size: 45px;
+        }
+        .sambutan{
+       display: flex;
+        
+        }
+       .sambutan{
+       display: flex;
+        
+    }
+    .div_sambutan {
+        width: 1300px;
+        background: burlywood;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 5px 5px 5px rgb(121, 114, 114);
+        border: 2px solid rgb(121, 114, 114);
+        text-align: left;
+        padding-right: 10px;
+    }
+    
+    .sumber_sambutan {
+        font-size: 14px;
+        color: rgb(14, 18, 204);
+        margin-top: 7px;
+    }
+
