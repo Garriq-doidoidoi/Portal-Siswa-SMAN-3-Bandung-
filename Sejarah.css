@@ -72,7 +72,7 @@ body {
             padding: 15px;
         }
         .banner{
-            background-image: url(../foto/sman-3-bandung-bangunan-depan-02.jpg);
+            background-image: url("sman-3-bandung-bangunan-depan-02.jpg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -111,4 +111,5 @@ body {
                 top: 0px;
                 transition: 15px ease-in;
               }
+
             }
